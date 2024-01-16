@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\DesignPatterns",
+    "\\src",
+    "\\src\\Creational"
   ],
-  "SelectedNode": "\\DesignPatterns.sln",
+  "SelectedNode": "\\.gitignore",
   "PreviewInSolutionExplorer": false
 }
