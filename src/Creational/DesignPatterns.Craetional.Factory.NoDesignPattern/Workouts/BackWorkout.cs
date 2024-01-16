@@ -1,0 +1,32 @@
+﻿using System.Collections.Generic;
+using System.Threading;
+using System;
+
+namespace DesignPatters.Creational.Factory.NoDesignPatternApplyedExample.Workouts
+{
+    public class BackWorkout
+    {
+        private readonly IEnumerable<string> _workoutList;
+        public BackWorkout()
+        {
+            var workouts = new string[4];
+            workouts[0] = "Pull-ups";
+            workouts[1] = "Lat Pulldown";
+            workouts[2] = "Barbell Row";
+            workouts[3] = "Dumbbell Row";
+
+            _workoutList = workouts;
+        }
+
+        public IEnumerable<string> GetWorkoutList() => _workoutList;
+
+        public void ExecuteWorkout()
+        {
+            foreach (var workout in _workoutList)
+            {
+                Thread.Sleep(500);
+                Console.WriteLine($"Performing a {workout}...");
+            }
+        }
+    }
+}
