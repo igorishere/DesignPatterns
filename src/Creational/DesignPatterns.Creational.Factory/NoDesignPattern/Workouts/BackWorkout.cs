@@ -1,19 +1,19 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Threading;
+using System;
 
-namespace DesignPatters.Creational.Factory.NoDesignPatternApplyedExample.Workouts
+namespace DesignPatters.Creational.Factory.NoDesignPattern.Workouts
 {
-    public class BreastPlateWorkout
+    public class BackWorkout
     {
         private readonly IEnumerable<string> _workoutList;
-        public BreastPlateWorkout()
+        public BackWorkout()
         {
             var workouts = new string[4];
-            workouts[0] = "Bench Press";
-            workouts[1] = "Incline Bench Press";
-            workouts[2] = "Dumbbell Flyes";
-            workouts[3] = "Dumbbell Pullover";
+            workouts[0] = "Pull-ups";
+            workouts[1] = "Lat Pulldown";
+            workouts[2] = "Barbell Row";
+            workouts[3] = "Dumbbell Row";
 
             _workoutList = workouts;
         }

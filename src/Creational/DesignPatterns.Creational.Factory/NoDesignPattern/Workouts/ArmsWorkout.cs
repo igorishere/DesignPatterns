@@ -2,18 +2,18 @@
 using System.Collections.Generic;
 using System.Threading;
 
-namespace DesignPatters.Creational.Factory.NoDesignPatternApplyedExample.Workouts
+namespace DesignPatters.Creational.Factory.NoDesignPattern.Workouts
 {
-    public class ShoulderWorkout
+    public class ArmsWorkout
     {
         private readonly IEnumerable<string> _workoutList;
-        public ShoulderWorkout()
+        public ArmsWorkout()
         {
             var workouts = new string[4];
-            workouts[0] = "Dumbbell Shoulder Press";
-            workouts[1] = "Lateral Raises";
-            workouts[2] = "Frontal Raises";
-            workouts[3] = "Shrugs";
+            workouts[0] = "Barbell Curl";
+            workouts[1] = "Dumbbell Alternate Curl";
+            workouts[2] = "Dumbbell Hammer Curl";
+            workouts[3] = "Tricep Bench Dip";
 
             _workoutList = workouts;
         }
