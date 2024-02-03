@@ -6,7 +6,7 @@ namespace DesignPatterns.Creational.AbstractFactory.WithDesignPattern
 {
     public class Executor : IExecutor
     {
-        public string Description => "Abstract factory - No design pattern";
+        public string Description => "Abstract factory - With design pattern";
 
         public void Execute()
         {
