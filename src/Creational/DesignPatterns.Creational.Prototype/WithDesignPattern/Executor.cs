@@ -1,5 +1,5 @@
 ﻿using DesignPatterns.Common;
-using DesignPatterns.Creational.Prototype.NoDesignPattern;
+using DesignPatterns.Creational.Prototype.WithDesignPattern;
 
 namespace DesignPatterns.Creational.Prototype.WithDesignPattern
 {
@@ -15,7 +15,7 @@ namespace DesignPatterns.Creational.Prototype.WithDesignPattern
 
             Console.WriteLine("Starting mitosis...");
 
-            var sonCell = new Cell(motherCell.ID, motherCell.Cromossomes);
+            var sonCell = motherCell.Copy();
 
             Console.WriteLine("Mitosis completed, check the results:");
             Console.WriteLine("-------------------------------------");
