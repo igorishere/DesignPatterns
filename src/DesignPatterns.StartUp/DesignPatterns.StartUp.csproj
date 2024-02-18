@@ -13,6 +13,7 @@
     <ProjectReference Include="..\Creational\DesignPatterns.Creational.Prototype\DesignPatterns.Creational.Prototype.csproj" />
     <ProjectReference Include="..\Creational\DesignPatterns.Creational.Singleton.NoDesignPattern\DesignPatterns.Creational.Singleton.csproj" />
     <ProjectReference Include="..\DesignPatterns.Common\DesignPatterns.Common.csproj" />
+    <ProjectReference Include="..\Structural\DesignPatterns.Structural.Adapter\DesignPatterns.Structural.Adapter.csproj" />
   </ItemGroup>
 
 </Project>
