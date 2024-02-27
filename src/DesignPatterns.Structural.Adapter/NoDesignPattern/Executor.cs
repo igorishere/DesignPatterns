@@ -34,6 +34,11 @@ namespace DesignPatterns.Structural.Adapter.NoDesignPattern
 
             var usbFemaleConector = new UsbFemaleConector(usbCable);
 
+            TransferData(usbFemaleConector);
+        }
+
+        void TransferData(IUSBFemaleConector usbFemaleConector)
+        {
             usbFemaleConector.TransferData();
         }
     }

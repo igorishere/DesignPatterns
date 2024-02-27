@@ -25,7 +25,12 @@ namespace DesignPatterns.Structural.Adapter.WithDesignPattern
             };
 
             var adapter = new UsbTypeCToUsbAdapter(usbTypeC);
-            adapter.TransferData();
+            TransferData(adapter);
+        }
+
+        void TransferData(IUSBFemaleConector usbFemaleConector)
+        {
+            usbFemaleConector.TransferData();
         }
     }
 }
