@@ -2,11 +2,11 @@
 
 namespace DesignPatterns.Structural.Facade.WithDesignPattern
 {
-    public class Executor : IExecutor
+    public class Executor : ExecutorWithExample
     {
-        public string Description => "Facade - with design pattern";
+        public override string GetName() => "Facade";
 
-        public async void Execute()
+        public override async void Execute()
         {
             var customer = new Customer("Cus tomer");
             var someOptionFromMenu = "Some option from menu";

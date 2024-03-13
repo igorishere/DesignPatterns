@@ -2,11 +2,11 @@
 
 namespace DesignPatterns.Creational.Prototype.NoDesignPattern
 {
-    public class Executor : IExecutor
+    public class Executor : ExecutorNoExample
     {
-        public string Description => "Prototype - No design pattern";
+        public override string GetName() => "Prototype";
 
-        public void Execute()
+        public override void Execute()
         {
             Console.WriteLine("Creating a cell...");
 

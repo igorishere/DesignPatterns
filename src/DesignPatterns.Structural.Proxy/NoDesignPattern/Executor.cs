@@ -2,11 +2,11 @@
 
 namespace DesignPatterns.Structural.Proxy.NoDesignPattern
 {
-    public class Executor : IExecutor
+    public class Executor : ExecutorNoExample
     {
-        public string Description => "Proxy - No design pattern";
+        public override string GetName() => "Proxy";
 
-        public void Execute()
+        public override void Execute()
         {
             var driver = new HumanDriver();
 

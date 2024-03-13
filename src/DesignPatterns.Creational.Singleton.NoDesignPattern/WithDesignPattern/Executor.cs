@@ -2,11 +2,11 @@
 
 namespace DesignPatterns.Creational.Singleton.WithDesignPattern
 {
-    public class Executor : IExecutor
+    public class Executor : ExecutorWithExample
     {
-        public string Description => "Singleton - With design pattern";
+        public override string GetName() => "Singleton";
 
-        public void Execute()
+        public override void Execute()
         {
             var connection1 = DatabaseConection.Instance;
 

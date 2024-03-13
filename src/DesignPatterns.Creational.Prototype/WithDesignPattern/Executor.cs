@@ -3,11 +3,11 @@ using DesignPatterns.Creational.Prototype.WithDesignPattern;
 
 namespace DesignPatterns.Creational.Prototype.WithDesignPattern
 {
-    internal class Executor : IExecutor
+    internal class Executor : ExecutorWithExample
     {
-        public string Description => "Prototy - With design pattern";
+        public override string GetName() => "Prototype";
 
-        public void Execute()
+        public override void Execute()
         {
             Console.WriteLine("Creating a cell...");
 

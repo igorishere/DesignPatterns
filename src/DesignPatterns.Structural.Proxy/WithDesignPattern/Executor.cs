@@ -7,11 +7,11 @@ using System.Threading.Tasks;
 
 namespace DesignPatterns.Structural.Proxy.WithDesignPattern
 {
-    public class Executor : IExecutor
+    public class Executor : ExecutorWithExample
     {
-        public string Description => "Proxy - With design pattern";
+        public override string GetName() => "Proxy";
 
-        public void Execute()
+        public override void Execute()
         {
             var driver = new HumanDriver();
             var autopilot = new AutoPilotDriver(driver);

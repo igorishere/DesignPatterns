@@ -6,11 +6,11 @@ using System.Threading;
 
 namespace DesignPatterns.Creational.Factory.WithDesignPattern
 {
-    public class Executor : IExecutor
+    public class Executor : ExecutorWithExample
     {
-        public string Description => "Factory - With Design pattern";
+        public override string GetName() => "Factory";
 
-        public void Execute()
+        public override void Execute()
         {
 
             Console.WriteLine("Choose a muscular region to exercise. Tap the number related to the muscular group:");

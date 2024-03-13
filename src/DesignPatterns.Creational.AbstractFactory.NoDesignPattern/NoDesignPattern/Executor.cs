@@ -3,11 +3,11 @@ using DesignPatterns.Creational.AbstractFactory.NoDesignPattern.Devices;
 
 namespace DesignPatterns.Creational.AbstractFactory.NoDesignPattern
 {
-    public class Executor : IExecutor
+    public class Executor : ExecutorNoExample
     {
-        public string Description => "Abstract factory - No design pattern";
+        public override string GetName() => "Abstract factory";
 
-        public void Execute()
+        public override void Execute()
         {
             Console.WriteLine("Choose a brand to see the devices:");
             Console.WriteLine("1.Apple");

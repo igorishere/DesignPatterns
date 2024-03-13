@@ -2,11 +2,11 @@
 
 namespace DesignPatterns.Structural.Facade.NoDesignPattern
 {
-    public class Executor : IExecutor
+    public class Executor : ExecutorNoExample
     {
-        public string Description => "Facade - no design pattern";
+        public override string GetName() => "Facade";
 
-        public async void Execute()
+        public override async void Execute()
         {
             var customer = new Customer("Cus tomer");
             var someOptionFromMenu = "Some option from menu";

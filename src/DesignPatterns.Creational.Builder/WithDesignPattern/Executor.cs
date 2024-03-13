@@ -2,11 +2,11 @@
 
 namespace DesignPatterns.Creational.Builder.WithDesignPattern
 {
-    public class Executor : IExecutor
+    public class Executor : ExecutorWithExample
     {
-        public string Description => "Builder - With design pattern";
+        public override string GetName() => "Builder";
 
-        public void Execute()
+        public override void Execute()
         {
             var people = new PersonBuilder()
             .Add("Jesus", 30, Guid.NewGuid())

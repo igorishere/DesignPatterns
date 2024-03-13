@@ -3,11 +3,11 @@ using DesignPatterns.Structural.Adapter.NoDesignPattern.Usb;
 
 namespace DesignPatterns.Structural.Adapter.NoDesignPattern
 {
-    public class Executor : IExecutor
+    public class Executor : ExecutorNoExample
     {
-        public string Description => "Adatpter - No Design Pattern";
+        public override string GetName() => "Adapter";
 
-        public void Execute()
+        public override void Execute()
         {
 
             var usbTypeC = new USBTypeCPinout()

@@ -4,11 +4,11 @@ using DesignPatterns.Creational.AbstractFactory.WithDesignPattern.Factories.Conc
 
 namespace DesignPatterns.Creational.AbstractFactory.WithDesignPattern
 {
-    public class Executor : IExecutor
+    public class Executor : ExecutorWithExample
     {
-        public string Description => "Abstract factory - With design pattern";
+        public override string GetName() => "Abstract Factory";
 
-        public void Execute()
+        public override void Execute()
         {
             Console.WriteLine("Choose a brand to see the devices:");
             Console.WriteLine("1.Apple");
@@ -33,5 +33,7 @@ namespace DesignPatterns.Creational.AbstractFactory.WithDesignPattern
                 Console.WriteLine($"Tablet: {factory.CreateTablet().Name}");
             }
         }
+
+
     }
 }

@@ -21,7 +21,7 @@ namespace DesignPatterns.StartUp
             { 
                 foreach (var type in assembly.GetTypes())
                 { 
-                    if (executableType.IsAssignableFrom(type) && type.IsClass)
+                    if (executableType.IsAssignableFrom(type) && type.IsClass && !type.IsAbstract)
                     {
                         try
                         {

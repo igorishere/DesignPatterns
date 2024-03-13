@@ -2,11 +2,11 @@
 
 namespace DesignPatterns.Creational.Builder.NoDesignPattern
 {
-    public class Executor : IExecutor
+    public class Executor : ExecutorNoExample
     {
-        public string Description => "Builder - No design pattern";
+        public override string GetName() => "Builder";
 
-        public void Execute()
+        public override void Execute()
         {
             var people = new List<Person>();
 
