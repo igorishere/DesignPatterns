@@ -1,6 +1,4 @@
-﻿using System.Xml.Linq;
-
-namespace DesignPatterns.Common
+﻿namespace DesignPatterns.Common
 {
     public abstract class ExecutorWithExample : BaseExecutor
     {

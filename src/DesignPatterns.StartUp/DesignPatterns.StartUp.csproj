@@ -9,10 +9,12 @@
   <ItemGroup>
     <ProjectReference Include="..\DesignPatterns.Common\DesignPatterns.Common.csproj" />
     <ProjectReference Include="..\DesignPatterns.Creational.AbstractFactory.NoDesignPattern\DesignPatterns.Creational.AbstractFactory.csproj" />
+    <ProjectReference Include="..\DesignPatterns.Creational.AbstractFactory\DesignPatterns.Creational.AbstractFactory.csproj" />
     <ProjectReference Include="..\DesignPatterns.Creational.Builder\DesignPatterns.Creational.Builder.csproj" />
     <ProjectReference Include="..\DesignPatterns.Creational.Factory\DesignPatterns.Creational.Factory.csproj" />
     <ProjectReference Include="..\DesignPatterns.Creational.Prototype\DesignPatterns.Creational.Prototype.csproj" />
     <ProjectReference Include="..\DesignPatterns.Creational.Singleton.NoDesignPattern\DesignPatterns.Creational.Singleton.csproj" />
+    <ProjectReference Include="..\DesignPatterns.Creational.Singleton\DesignPatterns.Creational.Singleton.csproj" />
     <ProjectReference Include="..\DesignPatterns.Structural.Adapter\DesignPatterns.Structural.Adapter.csproj" />
     <ProjectReference Include="..\DesignPatterns.Structural.Facade\DesignPatterns.Structural.Facade.csproj" />
     <ProjectReference Include="..\DesignPatterns.Structural.Proxy\DesignPatterns.Structural.Proxy.csproj" />
