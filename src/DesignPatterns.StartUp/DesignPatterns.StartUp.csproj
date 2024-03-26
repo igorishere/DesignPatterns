@@ -16,6 +16,7 @@
     <ProjectReference Include="..\DesignPatterns.Creational.Singleton.NoDesignPattern\DesignPatterns.Creational.Singleton.csproj" />
     <ProjectReference Include="..\DesignPatterns.Creational.Singleton\DesignPatterns.Creational.Singleton.csproj" />
     <ProjectReference Include="..\DesignPatterns.Structural.Adapter\DesignPatterns.Structural.Adapter.csproj" />
+    <ProjectReference Include="..\DesignPatterns.Structural.Composite\DesignPatterns.Structural.Composite.csproj" />
     <ProjectReference Include="..\DesignPatterns.Structural.Facade\DesignPatterns.Structural.Facade.csproj" />
     <ProjectReference Include="..\DesignPatterns.Structural.Proxy\DesignPatterns.Structural.Proxy.csproj" />
   </ItemGroup>
