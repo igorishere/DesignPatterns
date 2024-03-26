@@ -7,7 +7,7 @@
 *.sln.docstates
 
 .vscode
-.vs/
+.vs/*
 
 # Build results
 
