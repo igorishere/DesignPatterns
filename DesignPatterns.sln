@@ -27,7 +27,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.Structural.P
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.Structural.Composite", "src\DesignPatterns.Structural.Composite\DesignPatterns.Structural.Composite.csproj", "{29D04B97-46DA-4E73-9FB2-811FE692929D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.Structural.Bridge", "src\DesignPatterns.Structural.Bridge\DesignPatterns.Structural.Bridge.csproj", "{C2703F1C-A01C-4F96-948D-067DD86CD3A0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.Structural.Bridge", "src\DesignPatterns.Structural.Bridge\DesignPatterns.Structural.Bridge.csproj", "{C2703F1C-A01C-4F96-948D-067DD86CD3A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.Structural.Decorator", "src\DesignPatterns.Structural.Decorator\DesignPatterns.Structural.Decorator.csproj", "{35ECD3FA-950F-4511-B180-1B6249C1DA0B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -83,6 +85,10 @@ Global
 		{C2703F1C-A01C-4F96-948D-067DD86CD3A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C2703F1C-A01C-4F96-948D-067DD86CD3A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C2703F1C-A01C-4F96-948D-067DD86CD3A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35ECD3FA-950F-4511-B180-1B6249C1DA0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35ECD3FA-950F-4511-B180-1B6249C1DA0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35ECD3FA-950F-4511-B180-1B6249C1DA0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35ECD3FA-950F-4511-B180-1B6249C1DA0B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -98,6 +104,7 @@ Global
 		{DAC3BF8D-0BCD-4294-B041-2988949A19A7} = {1820FEC0-18B3-447A-B870-A0CBF41267D7}
 		{29D04B97-46DA-4E73-9FB2-811FE692929D} = {1820FEC0-18B3-447A-B870-A0CBF41267D7}
 		{C2703F1C-A01C-4F96-948D-067DD86CD3A0} = {1820FEC0-18B3-447A-B870-A0CBF41267D7}
+		{35ECD3FA-950F-4511-B180-1B6249C1DA0B} = {1820FEC0-18B3-447A-B870-A0CBF41267D7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8F3D1072-1698-4E7E-8290-ECF25E91B815}
