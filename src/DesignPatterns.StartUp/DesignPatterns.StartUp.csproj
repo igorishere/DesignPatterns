@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
@@ -23,6 +23,7 @@
     <ProjectReference Include="..\DesignPatterns.Structural.Proxy\DesignPatterns.Structural.Proxy.csproj" />
     <ProjectReference Include="..\DesignPatterns.Structural.Flyweight\DesignPatterns.Structural.Flyweight.csproj" />
     <ProjectReference Include="..\DesignPatterns.Behavioral.ChainOfResponsability\DesignPatterns.Behavioral.ChainOfResponsability.csproj" />
+    <ProjectReference Include="..\DesignPatterns.Behavioral.Mediator\DesignPatterns.Behavioral.Mediator.csproj" />
   </ItemGroup>
 
 </Project>
