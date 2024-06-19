@@ -22,6 +22,7 @@
     <ProjectReference Include="..\DesignPatterns.Structural.Flyweight\DesignPatterns.Structural.Flyweight.csproj" />
     <ProjectReference Include="..\DesignPatterns.Behavioral.ChainOfResponsability\DesignPatterns.Behavioral.ChainOfResponsability.csproj" />
     <ProjectReference Include="..\DesignPatterns.Behavioral.Mediator\DesignPatterns.Behavioral.Mediator.csproj" />
+    <ProjectReference Include="..\DesignPatterns.Behavioral.Command\DesignPatterns.Behavioral.Command.csproj" />
   </ItemGroup>
 
 </Project>
