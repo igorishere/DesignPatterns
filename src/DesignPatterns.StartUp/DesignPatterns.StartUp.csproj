@@ -24,6 +24,7 @@
     <ProjectReference Include="..\DesignPatterns.Behavioral.Mediator\DesignPatterns.Behavioral.Mediator.csproj" />
     <ProjectReference Include="..\DesignPatterns.Behavioral.Command\DesignPatterns.Behavioral.Command.csproj" />
     <ProjectReference Include="..\DesignPatterns.Behavioral.Memento\DesignPatterns.Behavioral.Memento.csproj" />
+    <ProjectReference Include="..\DesignPatterns.Behavioral.Iterator\DesignPatterns.Behavioral.Iterator.csproj" />
   </ItemGroup>
 
 </Project>
