@@ -26,6 +26,7 @@
     <ProjectReference Include="..\DesignPatterns.Behavioral.Memento\DesignPatterns.Behavioral.Memento.csproj" />
     <ProjectReference Include="..\DesignPatterns.Behavioral.Iterator\DesignPatterns.Behavioral.Iterator.csproj" />
     <ProjectReference Include="..\DesignPatterns.Behavioral.Template\DesignPatterns.Behavioral.Template.csproj" />
+    <ProjectReference Include="..\DesignPattern.Behavioral.Observer\DesignPattern.Behavioral.Observer.csproj" />
   </ItemGroup>
 
 </Project>
