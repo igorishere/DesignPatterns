@@ -28,6 +28,7 @@
     <ProjectReference Include="..\DesignPatterns.Behavioral.Template\DesignPatterns.Behavioral.Template.csproj" />
     <ProjectReference Include="..\DesignPattern.Behavioral.Observer\DesignPattern.Behavioral.Observer.csproj" />
     <ProjectReference Include="..\DesignPatterns.Behavioral.State\DesignPatterns.Behavioral.State.csproj" />
+    <ProjectReference Include="..\DesignPatterns.Behavioral.Visitor\DesignPatterns.Behavioral.Visitor.csproj" />
   </ItemGroup>
 
 </Project>
